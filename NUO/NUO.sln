@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUO", "NUO\NUO.csproj", "{EFCF3E2E-16D3-41EC-AB8C-958AACEB0A95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFCF3E2E-16D3-41EC-AB8C-958AACEB0A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCF3E2E-16D3-41EC-AB8C-958AACEB0A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCF3E2E-16D3-41EC-AB8C-958AACEB0A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCF3E2E-16D3-41EC-AB8C-958AACEB0A95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8ED5B3BD-75E2-43B5-A573-580B0D5A4F6E}
+	EndGlobalSection
+EndGlobal
