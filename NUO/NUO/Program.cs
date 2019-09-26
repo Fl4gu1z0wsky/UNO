@@ -8,6 +8,9 @@ namespace NUO
 {
     static class Program
     {
+        //We keep the name of the player for the other forms
+        public static string playerName;
+
         /// <summary>
         /// Point d'entrée principal de l'application.
         /// </summary>
@@ -16,7 +19,7 @@ namespace NUO
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new windowLaunch());
+            Application.Run(new frmLaunch());
         }
     }
 }

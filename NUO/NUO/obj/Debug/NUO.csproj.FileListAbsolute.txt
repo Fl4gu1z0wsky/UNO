@@ -10,3 +10,19 @@ N:\COMMUN\ELEVE\INFO\SI-CA2a\Projet (binôme)\Flavio & Mauricio\NUO\NUO\obj\Debu
 N:\COMMUN\ELEVE\INFO\SI-CA2a\Projet (binôme)\Flavio & Mauricio\NUO\NUO\obj\Debug\NUO.windowLaunch.resources
 N:\COMMUN\ELEVE\INFO\SI-CA2a\Projet (binôme)\Flavio & Mauricio\NUO\NUO\obj\Debug\NUO.windowWelcome.resources
 N:\COMMUN\ELEVE\INFO\SI-CA2a\Projet (binôme)\Flavio & Mauricio\NUO\NUO\obj\Debug\NUO.windowGame.resources
+P:\Annee2\ProjA2\NUO\NUO\NUO\bin\Debug\NUO.exe.config
+P:\Annee2\ProjA2\NUO\NUO\NUO\bin\Debug\NUO.exe
+P:\Annee2\ProjA2\NUO\NUO\NUO\bin\Debug\NUO.pdb
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.csprojAssemblyReference.cache
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.frmRules.resources
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.Properties.Resources.resources
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.csproj.GenerateResource.cache
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.csproj.CoreCompileInputs.cache
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.exe
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.pdb
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.frmLaunch.resources
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.frmWelcome.resources
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.frmPurpose.resources
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.frmCards.resources
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.frmJoker.resources
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.frmRulesExplanation.resources
