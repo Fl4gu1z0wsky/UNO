@@ -31,3 +31,5 @@ P:\Annee2\ProjA2\NUO\NUO\NUO\bin\Debug\System.Data.SQLite.xml
 P:\Annee2\ProjA2\NUO\NUO\NUO\bin\Debug\System.Data.SQLite.dll.config
 P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.csproj.CopyComplete
 P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.frmScores.resources
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.frmGame.resources
+P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.frmIA.resources

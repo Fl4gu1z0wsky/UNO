@@ -62,6 +62,7 @@
             this.cmdGame.TabIndex = 1;
             this.cmdGame.Text = "Lancer la partie";
             this.cmdGame.UseVisualStyleBackColor = false;
+            this.cmdGame.Click += new System.EventHandler(this.cmdGame_Click);
             // 
             // cmdScores
             // 

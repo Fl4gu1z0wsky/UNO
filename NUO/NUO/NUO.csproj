@@ -59,6 +59,18 @@
     <Compile Include="frmCards.Designer.cs">
       <DependentUpon>frmCards.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGame.Designer.cs">
+      <DependentUpon>frmGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIA.Designer.cs">
+      <DependentUpon>frmIA.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmJoker.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +118,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmCards.resx">
       <DependentUpon>frmCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGame.resx">
+      <DependentUpon>frmGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIA.resx">
+      <DependentUpon>frmIA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmJoker.resx">
       <DependentUpon>frmJoker.cs</DependentUpon>

@@ -64,5 +64,12 @@ namespace NUO
             form.ShowDialog();
             this.Close();
         }
+
+        private void cmdGame_Click(object sender, EventArgs e)
+        {
+            //Appel du formulaire frmIA
+            frmIA frmWindowNumberIA = new frmIA();
+            frmWindowNumberIA.Show();
+        }
     }
 }
