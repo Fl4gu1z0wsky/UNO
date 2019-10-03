@@ -52,5 +52,17 @@ namespace NUO
             form.ShowDialog();
             this.Close();
         }
+        /// <summary>
+        /// When the button cmdScores is clicked, it open the scores form
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void cmdScores_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmScores form = new frmScores();
+            form.ShowDialog();
+            this.Close();
+        }
     }
 }

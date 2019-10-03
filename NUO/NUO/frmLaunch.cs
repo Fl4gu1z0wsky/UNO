@@ -56,7 +56,7 @@ namespace NUO
                 //Declaration and instanciation of a new DBConnection
                 DBConnection sqliteConn = new DBConnection();
                 //Insertion of the new player's name
-                sqliteConn.InsertData(Program.playerName, 20);
+                sqliteConn.InsertData(Program.playerName, 22);
                 //DB connection close
                 sqliteConn.Close();
             }

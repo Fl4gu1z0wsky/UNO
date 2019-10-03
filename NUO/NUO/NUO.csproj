@@ -83,6 +83,12 @@
     <Compile Include="frmRulesExplanation.Designer.cs">
       <DependentUpon>frmRulesExplanation.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmScores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmScores.Designer.cs">
+      <DependentUpon>frmScores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Value.cs" />
     <Compile Include="frmLaunch.cs">
       <SubType>Form</SubType>
@@ -115,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmRulesExplanation.resx">
       <DependentUpon>frmRulesExplanation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmScores.resx">
+      <DependentUpon>frmScores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmWelcome.resx">
       <DependentUpon>frmWelcome.cs</DependentUpon>

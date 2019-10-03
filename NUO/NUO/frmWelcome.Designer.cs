@@ -76,6 +76,7 @@
             this.cmdScores.TabIndex = 2;
             this.cmdScores.Text = "TOP 10 des scores";
             this.cmdScores.UseVisualStyleBackColor = false;
+            this.cmdScores.Click += new System.EventHandler(this.cmdScores_Click);
             // 
             // cmdRules
             // 
