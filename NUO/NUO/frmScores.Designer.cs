@@ -33,6 +33,8 @@
             this.picNUO = new System.Windows.Forms.PictureBox();
             this.lblCPNV = new System.Windows.Forms.Label();
             this.cmdBack = new System.Windows.Forms.Button();
+            this.lblArrayPlayer = new System.Windows.Forms.Label();
+            this.lblArrayScore = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picNUO)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,12 +85,34 @@
             this.cmdBack.UseVisualStyleBackColor = false;
             this.cmdBack.Click += new System.EventHandler(this.cmdBack_Click);
             // 
+            // lblArrayPlayer
+            // 
+            this.lblArrayPlayer.AutoSize = true;
+            this.lblArrayPlayer.Font = new System.Drawing.Font("Comfortaa", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblArrayPlayer.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblArrayPlayer.Location = new System.Drawing.Point(667, 262);
+            this.lblArrayPlayer.Name = "lblArrayPlayer";
+            this.lblArrayPlayer.Size = new System.Drawing.Size(0, 52);
+            this.lblArrayPlayer.TabIndex = 21;
+            // 
+            // lblArrayScore
+            // 
+            this.lblArrayScore.AutoSize = true;
+            this.lblArrayScore.Font = new System.Drawing.Font("Comfortaa", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblArrayScore.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblArrayScore.Location = new System.Drawing.Point(970, 262);
+            this.lblArrayScore.Name = "lblArrayScore";
+            this.lblArrayScore.Size = new System.Drawing.Size(0, 52);
+            this.lblArrayScore.TabIndex = 22;
+            // 
             // frmScores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.lblArrayScore);
+            this.Controls.Add(this.lblArrayPlayer);
             this.Controls.Add(this.lblCPNV);
             this.Controls.Add(this.cmdBack);
             this.Controls.Add(this.picNUO);
@@ -109,5 +133,7 @@
         private System.Windows.Forms.PictureBox picNUO;
         private System.Windows.Forms.Label lblCPNV;
         private System.Windows.Forms.Button cmdBack;
+        private System.Windows.Forms.Label lblArrayPlayer;
+        private System.Windows.Forms.Label lblArrayScore;
     }
 }

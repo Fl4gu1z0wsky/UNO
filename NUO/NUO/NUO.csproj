@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cards.cs" />
     <Compile Include="Colors.cs" />
     <Compile Include="DBConnection.cs" />
     <Compile Include="frmCards.cs">
@@ -101,6 +102,7 @@
     <Compile Include="frmScores.Designer.cs">
       <DependentUpon>frmScores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Players.cs" />
     <Compile Include="Value.cs" />
     <Compile Include="frmLaunch.cs">
       <SubType>Form</SubType>

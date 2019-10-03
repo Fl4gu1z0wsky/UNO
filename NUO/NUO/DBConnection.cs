@@ -40,17 +40,18 @@ namespace NUO
         /// Create a List of string so the data can be read
         /// </summary>
         /// <returns>A List of string</returns>
-        public List<string> ReadData()
+        public List<Players> ReadDataPlayer()
         {
             SQLiteCommand cmd = sqliteConn.CreateCommand();
-            cmd.CommandText = "SELECT col1, col2 FROM SampleTable";
-            List<string> listCol1 = new List<string>();
+            cmd.CommandText = "SELECT pseudo, score FROM players ORDER BY score ASC limit 10;";
+            List<Players> listCol1 = new List<Players>();
 
             SQLiteDataReader dataReader = cmd.ExecuteReader();
             while (dataReader.Read())
             {
-                string myReader = dataReader["col1"].ToString();
-                listCol1.Add(myReader);
+                //On va mettre ça dans un objet joueur !!!---------------------------------------------------
+                Players user = new Players(dataReader["pseudo"].ToString(), Int32.Parse(dataReader["score"].ToString()));
+                listCol1.Add(user);
             }
             return listCol1;
         }

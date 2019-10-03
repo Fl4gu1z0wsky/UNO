@@ -50,7 +50,7 @@ namespace NUO
             //We add the name of the player
             Program.playerName = txtPseudo.Text;
             
-            //We do a try catch if there is a problem with de DB connection
+            /*//We do a try catch if there is a problem with de DB connection ------------------------------
             try
             {
                 //Declaration and instanciation of a new DBConnection
@@ -64,7 +64,7 @@ namespace NUO
             {
                 //Message to show what was wrong with the connection
                 MessageBox.Show(ex.Message, "Attention", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            }*/
 
             this.Hide();
             frmWelcome form = new frmWelcome();
@@ -89,7 +89,7 @@ namespace NUO
                     //Declaration and instanciation of a new DBConnection
                     DBConnection sqliteConn = new DBConnection();
                     //Insertion of the new player's name
-                    sqliteConn.InsertData(Program.playerName, 20);
+                    sqliteConn.InsertData(Program.playerName, 10);
                     //DB connection close
                     sqliteConn.Close();
                 }

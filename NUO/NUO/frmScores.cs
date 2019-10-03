@@ -22,6 +22,29 @@ namespace NUO
             lblScores.Left = (this.ClientSize.Width - lblScores.Size.Width) / 2;
             cmdBack.Left = (this.ClientSize.Width - cmdBack.Size.Width) / 2;
             lblCPNV.Left = (this.ClientSize.Width - lblCPNV.Size.Width) / 2;
+
+            //We display the pseudo and scores in an array and put it on a label
+            lblArrayPlayer.Text = "";
+            lblArrayScore.Text = "";
+            //Declaration and instanciation of a new DBConnection
+            DBConnection sqliteConn = new DBConnection();
+            //Insertion of the new player's name
+            int i = 1;
+            List<Players> read = sqliteConn.ReadDataPlayer();
+            foreach(Players user in read)
+            {
+                //To align scores
+                int count = user.Pseudo.Length - user.Score.ToString().Length;
+                lblArrayPlayer.Text += i + ". " + user.Pseudo + "\n";
+                lblArrayScore.Text += user.Score + "\n";
+                i++;
+            }
+            //DB connection close
+            sqliteConn.Close();
+
+            //And we put the label in the middle
+            lblArrayPlayer.Left = ((this.ClientSize.Width - lblArrayPlayer.Size.Width) / 2) - 50;
+            lblArrayScore.Left = ((this.ClientSize.Width - lblArrayScore.Size.Width) / 2) + 130;
         }
         /// <summary>
         /// When the button cmdBack is clicked, it open the welcome form
