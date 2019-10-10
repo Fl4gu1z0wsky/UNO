@@ -102,11 +102,14 @@
     <Compile Include="frmScores.Designer.cs">
       <DependentUpon>frmScores.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Players.cs" />
+=======
     <Compile Include="IA1.cs" />
     <Compile Include="IA2.cs" />
     <Compile Include="IA3.cs" />
     <Compile Include="MainPlayer.cs" />
+>>>>>>> Provisoire
     <Compile Include="Value.cs" />
     <Compile Include="frmLaunch.cs">
       <SubType>Form</SubType>
