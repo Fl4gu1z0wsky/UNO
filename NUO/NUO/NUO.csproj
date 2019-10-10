@@ -103,9 +103,7 @@
       <DependentUpon>frmScores.cs</DependentUpon>
     </Compile>
     <Compile Include="Players.cs" />
-    <Compile Include="IA1.cs" />
-    <Compile Include="IA2.cs" />
-    <Compile Include="IA3.cs" />
+    <Compile Include="IA.cs" />
     <Compile Include="MainPlayer.cs" />
     <Compile Include="TablesLayout.cs" />
     <Compile Include="Value.cs" />

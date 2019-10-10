@@ -38,6 +38,10 @@ namespace NUO
             
             Random rand = new Random();
             DBConnection nuoDB = new DBConnection();
+            MainPlayer playerClass = new MainPlayer();
+            IA IA1Class = new IA();
+            IA IA2Class = new IA();
+            IA IA3Class = new IA();
 
             //contains all ids of the DB
             List<int> pile = nuoDB.GetIdCards();
@@ -58,12 +62,7 @@ namespace NUO
 
             //Deliver 7 ids card to each player contained in the list selectedIdCards
             while (selectedIdCards.Count() != 0)
-            {
-                MainPlayer playerClass = new MainPlayer();
-                IA1 IA1Class = new IA1();
-                IA2 IA2Class = new IA2();
-                IA3 IA3Class = new IA3();
-
+            { 
                 do
                 {
 
@@ -119,8 +118,8 @@ namespace NUO
             cmdCards.Cursor = Cursors.Hand;
             cmdCardPlayed.Left = ((this.ClientSize.Width - cmdCardPlayed.Size.Width) / 2) + 100;
             cmdCardPlayed.BackgroundImage = Properties.Resources._26;
-            TablesLayout table = new TablesLayout();
-            table.setTablesLayout(tableLayoutPanel1);
+            TablesLayout table = new TablesLayout();            
+            table.setTablesLayout(tableLayoutPanel1, playerClass);
             table.setTablesLayoutHorizontal(tableLayoutPanel2);
             table.setTablesLayoutVertical(tableLayoutPanel3);
             table.setTablesLayoutVertical(tableLayoutPanel4);

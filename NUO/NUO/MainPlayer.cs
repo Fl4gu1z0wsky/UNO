@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NUO
 {
-    class MainPlayer
+    public class MainPlayer
     {
         private List<int> cartes; /* Attributs */
         private string pseudo;

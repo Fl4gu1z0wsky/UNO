@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace NUO
 {
-    class IA3
+    class IA
     {
         private List<int> cartes; /* Attributs */
         private string pseudo;
         private int score;
         private decimal timing;
 
-        public IA3() /* constructeur de base */
+        public IA() /* constructeur de base */
         {
             this.Cartes = new List<int>();
         }
@@ -21,11 +21,11 @@ namespace NUO
 
         public List<int> Cartes /* Propriété */
         {
-            get
+            get 
             {
                 return cartes;
             }
-            set
+            set 
             {
                 cartes = value;
             }

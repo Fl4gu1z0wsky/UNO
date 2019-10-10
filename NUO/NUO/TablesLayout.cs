@@ -17,15 +17,16 @@ namespace NUO
 
         }
 
-        public void setTablesLayout(TableLayoutPanel table)
+        public void setTablesLayout(TableLayoutPanel table, MainPlayer player)
         {
-            table.ColumnCount = 12;
+            //The maximum amount of cards
+            table.ColumnCount = 9;
             table.RowCount = 2;
-            for (int i = 0; i < 18; i++)
+            for (int i = 0; i < player.Cartes.Count; i++)
             {
                 ImageList imagelist1 = new ImageList();
                 imagelist1.ImageSize = new Size(81, 124);
-                string from = "Images/" + (i + 80) + ".png";
+                string from = "Images/" + player.Cartes[i] + ".png";
                 imagelist1.Images.Add(Image.FromFile(from));
                 Button cmdImage = new Button();
                 cmdImage.BackgroundImage = imagelist1.Images[0];
@@ -58,7 +59,7 @@ namespace NUO
 
         public void setTablesLayoutHorizontal(TableLayoutPanel table)
         {
-            table.ColumnCount = 12;
+            table.ColumnCount = 9;
             table.RowCount = 2;
             for (int i = 0; i < 18; i++)
             {
@@ -95,7 +96,7 @@ namespace NUO
         public void setTablesLayoutVertical(TableLayoutPanel table)
         {
             table.ColumnCount = 2;
-            table.RowCount = 12;
+            table.RowCount = 9;
             for (int i = 0; i < 18; i++)
             {
                 Button cmdImage = new Button();
