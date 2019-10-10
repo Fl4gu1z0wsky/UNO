@@ -109,6 +109,21 @@ namespace NUO
 
                 }
             }
+            //Adding the cards in the tablelayout
+            tableLayoutPanel1.Left = (this.ClientSize.Width - tableLayoutPanel1.Size.Width) / 2;
+            tableLayoutPanel2.Left = (this.ClientSize.Width - tableLayoutPanel2.Size.Width) / 2;
+            cmdCards.Left = ((this.ClientSize.Width - cmdCards.Size.Width) / 2) - 100;
+            //Propriétés du tas de cartes à piocher
+            cmdCards.BackgroundImage = Properties.Resources.unoVersoVertical;
+            cmdCards.BackgroundImageLayout = ImageLayout.Stretch;
+            cmdCards.Cursor = Cursors.Hand;
+            cmdCardPlayed.Left = ((this.ClientSize.Width - cmdCardPlayed.Size.Width) / 2) + 100;
+            cmdCardPlayed.BackgroundImage = Properties.Resources._26;
+            TablesLayout table = new TablesLayout();
+            table.setTablesLayout(tableLayoutPanel1);
+            table.setTablesLayoutHorizontal(tableLayoutPanel2);
+            table.setTablesLayoutVertical(tableLayoutPanel3);
+            table.setTablesLayoutVertical(tableLayoutPanel4);
         }
     }
 }
