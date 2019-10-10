@@ -101,6 +101,10 @@
     <Compile Include="frmScores.Designer.cs">
       <DependentUpon>frmScores.cs</DependentUpon>
     </Compile>
+    <Compile Include="IA1.cs" />
+    <Compile Include="IA2.cs" />
+    <Compile Include="IA3.cs" />
+    <Compile Include="MainPlayer.cs" />
     <Compile Include="Value.cs" />
     <Compile Include="frmLaunch.cs">
       <SubType>Form</SubType>

@@ -67,11 +67,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(642, 220);
+            this.ClientSize = new System.Drawing.Size(494, 143);
             this.Controls.Add(this.cmdValidation);
             this.Controls.Add(this.cboNumberIA);
             this.Controls.Add(this.lblChooseNumberIA);
             this.Name = "frmIA";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmIA";
             this.ResumeLayout(false);
             this.PerformLayout();

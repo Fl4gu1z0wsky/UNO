@@ -33,3 +33,26 @@ P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.csproj.CopyComplete
 P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.frmScores.resources
 P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.frmGame.resources
 P:\Annee2\ProjA2\NUO\NUO\NUO\obj\Debug\NUO.frmIA.resources
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\bin\Debug\NUO.exe.config
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\bin\Debug\NUO.exe
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\bin\Debug\NUO.pdb
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\bin\Debug\System.Data.SQLite.dll
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\bin\Debug\System.Data.SQLite.xml
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.csprojAssemblyReference.cache
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.frmCards.resources
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.frmGame.resources
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.frmIA.resources
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.frmJoker.resources
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.frmPurpose.resources
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.frmRules.resources
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.frmLaunch.resources
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.frmRulesExplanation.resources
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.frmScores.resources
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.frmWelcome.resources
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.Properties.Resources.resources
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.csproj.GenerateResource.cache
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.csproj.CoreCompileInputs.cache
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.csproj.CopyComplete
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.exe
+C:\Users\Mauricio.COSTA-CABRA\Desktop\1er trimestre 2019\Projet Binome\CODE\UNO\NUO\NUO\obj\Debug\NUO.pdb

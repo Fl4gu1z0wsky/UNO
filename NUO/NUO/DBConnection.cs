@@ -61,5 +61,27 @@ namespace NUO
         {
             sqliteConn.Close();
         }
+
+        public List<int> GetIdCards()
+        {
+            
+
+            List<int> listId = new List<int>();
+
+            SQLiteCommand cmd = sqliteConn.CreateCommand();
+            cmd.CommandText = "SELECT id FROM cards";
+
+
+            SQLiteDataReader dataReader = cmd.ExecuteReader();
+            while (dataReader.Read())
+            {
+                listId.Add(Convert.ToSByte(dataReader["id"].ToString()));
+            }
+
+            return listId;
+
+            
+        }
+
     }
 }
