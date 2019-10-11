@@ -117,6 +117,7 @@
             this.Controls.Add(this.tableLayoutPanel2);
             this.Name = "frmGame";
             this.Text = "NUO";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmGame_Load);
             this.ResumeLayout(false);
 

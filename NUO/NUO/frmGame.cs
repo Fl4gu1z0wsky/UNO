@@ -16,7 +16,6 @@ namespace NUO
     public partial class frmGame : Form
     {
         public int numberIA;
-
         /// <summary>
         /// Constructor
         /// </summary>
@@ -112,17 +111,19 @@ namespace NUO
             tableLayoutPanel1.Left = (this.ClientSize.Width - tableLayoutPanel1.Size.Width) / 2;
             tableLayoutPanel2.Left = (this.ClientSize.Width - tableLayoutPanel2.Size.Width) / 2;
             cmdCards.Left = ((this.ClientSize.Width - cmdCards.Size.Width) / 2) - 100;
-            //Propriétés du tas de cartes à piocher
+            //Proprieties of the cards pile to pick up
             cmdCards.BackgroundImage = Properties.Resources.unoVersoVertical;
             cmdCards.BackgroundImageLayout = ImageLayout.Stretch;
             cmdCards.Cursor = Cursors.Hand;
             cmdCardPlayed.Left = ((this.ClientSize.Width - cmdCardPlayed.Size.Width) / 2) + 100;
             cmdCardPlayed.BackgroundImage = Properties.Resources._26;
-            TablesLayout table = new TablesLayout();            
+            TablesLayout table = new TablesLayout();
+            //Creating cards board of the mainplayer
             table.setTablesLayout(tableLayoutPanel1, playerClass);
-            table.setTablesLayoutHorizontal(tableLayoutPanel2);
-            table.setTablesLayoutVertical(tableLayoutPanel3);
-            table.setTablesLayoutVertical(tableLayoutPanel4);
+            //Creating cards board of the AI
+            table.setTablesLayoutHorizontal(tableLayoutPanel2, IA1Class);
+            table.setTablesLayoutVertical(tableLayoutPanel3, IA2Class);
+            table.setTablesLayoutVertical(tableLayoutPanel4, IA3Class);
         }
     }
 }

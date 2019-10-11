@@ -10,112 +10,64 @@ using System.Windows.Forms;
 
 namespace NUO
 {
+    /// <summary>
+    /// Initiate what is inside the tablelayout on the frmgame
+    /// </summary>
     public class TablesLayout
     {
+        /// <summary>
+        /// Constructor of TablesLayout
+        /// </summary>
         public TablesLayout()
         {
 
         }
+        /// <summary>
+        /// Destructor of TablesLayout
+        /// </summary>
+        ~TablesLayout()
+        {
 
+        }
+        /// <summary>
+        /// Add cards on the tablelayoutpanel for the player
+        /// </summary>
+        /// <param name="table">This is a TableLayoutPanel</param>
+        /// <param name="player">This is the MainPlayer</param>
         public void setTablesLayout(TableLayoutPanel table, MainPlayer player)
-        {
-            //The maximum amount of cards
-            table.ColumnCount = 9;
-            table.RowCount = 2;
-            for (int i = 0; i < player.Cartes.Count; i++)
-            {
-                ImageList imagelist1 = new ImageList();
-                imagelist1.ImageSize = new Size(81, 124);
-                string from = "Images/" + player.Cartes[i] + ".png";
-                imagelist1.Images.Add(Image.FromFile(from));
-                Button cmdImage = new Button();
-                cmdImage.BackgroundImage = imagelist1.Images[0];
-                cmdImage.Text = "";
-                cmdImage.Size = new Size(81, 124);
-                cmdImage.Anchor = AnchorStyles.None;
-                cmdImage.Cursor = Cursors.Hand;
-                if (i >= 9)
-                {
-                    table.Controls.Add(cmdImage, (i - 9), 1);
-                }
-                else
-                {
-                    table.Controls.Add(cmdImage, i, 0);
-                }
-            }
-            //Pour arranger les tablelayout pour que tout fonctionne
-            table.ColumnStyles.Clear();
-            for (int i = 0; i < table.ColumnCount; i++)
-            {
-                table.ColumnStyles.Add(new ColumnStyle(SizeType.AutoSize));
-            }
-
-            table.RowStyles.Clear();
-            for (int i = 0; i < table.RowCount; i++)
-            {
-                table.RowStyles.Add(new RowStyle(SizeType.AutoSize));
-            }
+        {           
+            CardsOnBoards buttonsCard = new CardsOnBoards();
+            buttonsCard.AddBUttons(table, player);
+            this.ArrangeTableLayout(table);
         }
-
-        public void setTablesLayoutHorizontal(TableLayoutPanel table)
+        /// <summary>
+        /// Add cards on the tablelayoutpanel horizontaly for an ai
+        /// </summary>
+        /// <param name="table">This is a TableLayoutPanel</param>
+        /// <param name="player">This is an ai</param>
+        public void setTablesLayoutHorizontal(TableLayoutPanel table, IA ai)
         {
-            table.ColumnCount = 9;
-            table.RowCount = 2;
-            for (int i = 0; i < 18; i++)
-            {
-                Button cmdImage = new Button();
-                cmdImage.BackgroundImage = Properties.Resources.unoVersoVertical;
-                cmdImage.BackgroundImageLayout = ImageLayout.Stretch;
-                cmdImage.Text = "";
-                cmdImage.Size = new Size(81, 124);
-                cmdImage.Anchor = AnchorStyles.None;
-                cmdImage.Enabled = false;
-                if (i >= 9)
-                {
-                    table.Controls.Add(cmdImage, (i - 9), 1);
-                }
-                else
-                {
-                    table.Controls.Add(cmdImage, i, 0);
-                }
-            }
-            //Pour arranger les tablelayout pour que tout fonctionne
-            table.ColumnStyles.Clear();
-            for (int i = 0; i < table.ColumnCount; i++)
-            {
-                table.ColumnStyles.Add(new ColumnStyle(SizeType.AutoSize));
-            }
-
-            table.RowStyles.Clear();
-            for (int i = 0; i < table.RowCount; i++)
-            {
-                table.RowStyles.Add(new RowStyle(SizeType.AutoSize));
-            }
+            CardsOnBoards buttonsCard = new CardsOnBoards();
+            buttonsCard.AddCardsIAHorizontal(table, ai);
+            this.ArrangeTableLayout(table);
         }
-
-        public void setTablesLayoutVertical(TableLayoutPanel table)
+        /// <summary>
+        /// Add cards on the tablelayoutpanel verticaly for an ai
+        /// </summary>
+        /// <param name="table">This is a TableLayoutPanel</param>
+        /// <param name="player">This is an ai</param>
+        public void setTablesLayoutVertical(TableLayoutPanel table, IA ai)
         {
-            table.ColumnCount = 2;
-            table.RowCount = 9;
-            for (int i = 0; i < 18; i++)
-            {
-                Button cmdImage = new Button();
-                cmdImage.BackgroundImage = Properties.Resources.unoVersoHorizontal;
-                cmdImage.BackgroundImageLayout = ImageLayout.Stretch;
-                cmdImage.Text = "";
-                cmdImage.Size = new Size(124, 81);
-                cmdImage.Anchor = AnchorStyles.None;
-                cmdImage.Enabled = false;
-                if (i >= 9)
-                {
-                    table.Controls.Add(cmdImage, 0, (i - 9));
-                }
-                else
-                {
-                    table.Controls.Add(cmdImage, 1, i);
-                }
-            }
-            //Pour arranger les tablelayout pour que tout fonctionne
+            CardsOnBoards buttonsCard = new CardsOnBoards();
+            buttonsCard.AddCardsIAVertical(table, ai);
+            this.ArrangeTableLayout(table);
+        }
+        /// <summary>
+        /// Clear and arrange the tableLayoutPanel to add the cards
+        /// </summary>
+        /// <param name="table">This is a TableLayoutPanel</param>
+        private void ArrangeTableLayout(TableLayoutPanel table)
+        {
             table.ColumnStyles.Clear();
             for (int i = 0; i < table.ColumnCount; i++)
             {

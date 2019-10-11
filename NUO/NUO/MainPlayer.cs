@@ -6,19 +6,22 @@ using System.Threading.Tasks;
 
 namespace NUO
 {
+    /// <summary>
+    /// Create the main player for the game
+    /// </summary>
     public class MainPlayer
     {
         private List<int> cartes; /* Attributs */
         private string pseudo;
         private int score;
         private decimal timing;
-
+        /// <summary>
+        /// Constructor of the mainPlayer
+        /// </summary>
         public MainPlayer() /* constructeur de base */
         {
             this.Cartes = new List<int>();
         }
-
-
         public List<int> Cartes /* Propriété */
         {
             get /* permet la lecture uniquement*/

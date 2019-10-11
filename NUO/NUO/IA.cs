@@ -6,19 +6,29 @@ using System.Threading.Tasks;
 
 namespace NUO
 {
-    class IA
+    /// <summary>
+    /// Create the ai's for the game
+    /// </summary>
+    public class IA
     {
         private List<int> cartes; /* Attributs */
         private string pseudo;
         private int score;
         private decimal timing;
-
-        public IA() /* constructeur de base */
+        /// <summary>
+        /// Constructor of the ai
+        /// </summary>
+        public IA()
         {
             this.Cartes = new List<int>();
         }
+        /// <summary>
+        /// Destructor of the ai
+        /// </summary>
+        ~IA()
+        {
 
-
+        }
         public List<int> Cartes /* Propriété */
         {
             get 

@@ -52,8 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cards.cs" />
+    <Compile Include="CardsOnBoards.cs" />
     <Compile Include="Colors.cs" />
     <Compile Include="DBConnection.cs" />
+    <Compile Include="Distribution.cs" />
     <Compile Include="frmCards.cs">
       <SubType>Form</SubType>
     </Compile>
