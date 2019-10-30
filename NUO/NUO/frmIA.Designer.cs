@@ -35,31 +35,38 @@
             // 
             // cmdValidation
             // 
-            this.cmdValidation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdValidation.Location = new System.Drawing.Point(339, 78);
+            this.cmdValidation.BackColor = System.Drawing.SystemColors.ControlText;
+            this.cmdValidation.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmdValidation.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdValidation.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.cmdValidation.Location = new System.Drawing.Point(437, 103);
             this.cmdValidation.Name = "cmdValidation";
             this.cmdValidation.Size = new System.Drawing.Size(121, 43);
             this.cmdValidation.TabIndex = 5;
             this.cmdValidation.Text = "Valider";
-            this.cmdValidation.UseVisualStyleBackColor = true;
+            this.cmdValidation.UseVisualStyleBackColor = false;
             this.cmdValidation.Click += new System.EventHandler(this.cmdValidation_Click_1);
             // 
             // cboNumberIA
             // 
+            this.cboNumberIA.BackColor = System.Drawing.SystemColors.InfoText;
             this.cboNumberIA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboNumberIA.Font = new System.Drawing.Font("Comfortaa", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboNumberIA.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.cboNumberIA.FormattingEnabled = true;
-            this.cboNumberIA.Location = new System.Drawing.Point(428, 35);
+            this.cboNumberIA.Location = new System.Drawing.Point(479, 41);
             this.cboNumberIA.Name = "cboNumberIA";
-            this.cboNumberIA.Size = new System.Drawing.Size(32, 21);
+            this.cboNumberIA.Size = new System.Drawing.Size(51, 29);
             this.cboNumberIA.TabIndex = 4;
             // 
             // lblChooseNumberIA
             // 
             this.lblChooseNumberIA.AutoSize = true;
-            this.lblChooseNumberIA.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChooseNumberIA.Font = new System.Drawing.Font("Comfortaa", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChooseNumberIA.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblChooseNumberIA.Location = new System.Drawing.Point(29, 32);
             this.lblChooseNumberIA.Name = "lblChooseNumberIA";
-            this.lblChooseNumberIA.Size = new System.Drawing.Size(378, 24);
+            this.lblChooseNumberIA.Size = new System.Drawing.Size(432, 30);
             this.lblChooseNumberIA.TabIndex = 3;
             this.lblChooseNumberIA.Text = "Veuillez choisir le nombre d\'adversaires (IA)";
             // 
@@ -67,7 +74,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(494, 143);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(614, 168);
             this.Controls.Add(this.cmdValidation);
             this.Controls.Add(this.cboNumberIA);
             this.Controls.Add(this.lblChooseNumberIA);

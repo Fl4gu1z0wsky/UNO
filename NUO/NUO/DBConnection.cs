@@ -49,7 +49,7 @@ namespace NUO
             SQLiteDataReader dataReader = cmd.ExecuteReader();
             while (dataReader.Read())
             {
-                //On va mettre ça dans un objet joueur !!!---------------------------------------------------
+                //Insertion in a player
                 Players user = new Players(dataReader["pseudo"].ToString(), Int32.Parse(dataReader["score"].ToString()));
                 listCol1.Add(user);
             }
@@ -62,16 +62,16 @@ namespace NUO
         {
             sqliteConn.Close();
         }
-
+        /// <summary>
+        /// Get the id of the card
+        /// </summary>
+        /// <returns>A list<int> of the id cards</returns>
         public List<int> GetIdCards()
-        {
-            
-
+        {           
             List<int> listId = new List<int>();
 
             SQLiteCommand cmd = sqliteConn.CreateCommand();
             cmd.CommandText = "SELECT id FROM cards";
-
 
             SQLiteDataReader dataReader = cmd.ExecuteReader();
             while (dataReader.Read())
@@ -79,10 +79,7 @@ namespace NUO
                 listId.Add(Convert.ToSByte(dataReader["id"].ToString()));
             }
 
-            return listId;
-
-            
+            return listId;            
         }
-
     }
 }

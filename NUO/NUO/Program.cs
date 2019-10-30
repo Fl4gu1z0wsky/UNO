@@ -6,13 +6,16 @@ using System.Windows.Forms;
 
 namespace NUO
 {
+    /// <summary>
+    /// The main program to launch the game
+    /// </summary>
     static class Program
     {
         //We keep the name of the player for the other forms
         public static string playerName;
 
         /// <summary>
-        /// Point d'entrée principal de l'application.
+        /// Principal entry point of the app
         /// </summary>
         [STAThread]
         static void Main()

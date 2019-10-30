@@ -10,13 +10,23 @@ using System.Windows.Forms;
 
 namespace NUO
 {
+    /// <summary>
+    /// Form of the scores
+    /// </summary>
     public partial class frmScores : Form
     {
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public frmScores()
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Show the table of scores
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void frmScores_Load(object sender, EventArgs e)
         {
             lblScores.Left = (this.ClientSize.Width - lblScores.Size.Width) / 2;

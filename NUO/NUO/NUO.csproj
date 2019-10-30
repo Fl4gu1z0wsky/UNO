@@ -55,7 +55,6 @@
     <Compile Include="CardsOnBoards.cs" />
     <Compile Include="Colors.cs" />
     <Compile Include="DBConnection.cs" />
-    <Compile Include="Distribution.cs" />
     <Compile Include="frmCards.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,9 +105,8 @@
     </Compile>
     <Compile Include="Players.cs" />
     <Compile Include="IA.cs" />
-    <Compile Include="MainPlayer.cs" />
     <Compile Include="TablesLayout.cs" />
-    <Compile Include="Value.cs" />
+    <Compile Include="Values.cs" />
     <Compile Include="frmLaunch.cs">
       <SubType>Form</SubType>
     </Compile>

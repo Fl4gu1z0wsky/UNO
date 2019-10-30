@@ -11,10 +11,6 @@ namespace NUO
     /// </summary>
     public class IA
     {
-        private List<int> cartes; /* Attributs */
-        private string pseudo;
-        private int score;
-        private decimal timing;
         /// <summary>
         /// Constructor of the ai
         /// </summary>
@@ -29,46 +25,9 @@ namespace NUO
         {
 
         }
-        public List<int> Cartes /* Propriété */
-        {
-            get 
-            {
-                return cartes;
-            }
-            set 
-            {
-                cartes = value;
-            }
-        }
-
-        public string Pseudo
-        {
-            get
-            {
-                return pseudo;
-            }
-
-        }
-
-        public int Score
-        {
-            get
-            {
-                return score;
-            }
-            set
-            {
-                score = value;
-            }
-        }
-
-        public decimal Timing
-        {
-            get
-            {
-                return timing;
-            }
-
-        }
+        public List<int> Cartes { get; set; }
+        public string Pseudo { get; set; }
+        public int Score { get; set; }
+        public decimal Timing { get; set; }
     }
 }

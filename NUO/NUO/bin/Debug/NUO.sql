@@ -1,0 +1,24 @@
+BEGIN TRANSACTION;
+
+/*  Title   : NUO.sql
+    Author  : Flavio Sovilla
+    Created : 12.09.2019
+    Version : 1.0
+*/
+
+DROP TABLE IF EXISTS players;
+DROP TABLE IF EXISTS cards;
+
+CREATE TABLE IF NOT EXISTS players (
+	id	INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
+	pseudo	VARCHAR(20) NOT NULL,
+	score	INTEGER
+);
+
+CREATE TABLE IF NOT EXISTS `cards` (
+	id	INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
+	color	INTEGER NOT NULL,
+	value	INTEGER
+);
+
+COMMIT;

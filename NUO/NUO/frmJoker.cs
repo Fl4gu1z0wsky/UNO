@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace NUO
 {
+    /// <summary>
+    /// Form to explain joker's cards
+    /// </summary>
     public partial class frmJoker : Form
     {
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public frmJoker()
         {
             InitializeComponent();

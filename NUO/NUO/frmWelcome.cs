@@ -64,7 +64,11 @@ namespace NUO
             form.ShowDialog();
             this.Close();
         }
-
+        /// <summary>
+        /// When the button cmdScores is clicked, it open the window IA number choice
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void cmdGame_Click(object sender, EventArgs e)
         {
             //Appel du formulaire frmIA

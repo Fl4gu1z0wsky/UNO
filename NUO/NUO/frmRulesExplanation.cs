@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace NUO
 {
+    /// <summary>
+    /// Form to explain the rules
+    /// </summary>
     public partial class frmRulesExplanation : Form
     {
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public frmRulesExplanation()
         {
             InitializeComponent();

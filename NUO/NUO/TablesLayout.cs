@@ -34,7 +34,7 @@ namespace NUO
         /// </summary>
         /// <param name="table">This is a TableLayoutPanel</param>
         /// <param name="player">This is the MainPlayer</param>
-        public void setTablesLayout(TableLayoutPanel table, MainPlayer player)
+        public void setTablesLayout(TableLayoutPanel table, Players player)
         {           
             CardsOnBoards buttonsCard = new CardsOnBoards();
             buttonsCard.AddBUttons(table, player);

@@ -37,7 +37,7 @@ namespace NUO
             
             Random rand = new Random();
             DBConnection nuoDB = new DBConnection();
-            MainPlayer playerClass = new MainPlayer();
+            Players playerClass = new Players();
             IA IA1Class = new IA();
             IA IA2Class = new IA();
             IA IA3Class = new IA();
