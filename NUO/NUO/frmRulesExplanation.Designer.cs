@@ -79,7 +79,7 @@
             this.lblRules.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblRules.Location = new System.Drawing.Point(518, 95);
             this.lblRules.Name = "lblRules";
-            this.lblRules.Size = new System.Drawing.Size(1316, 578);
+            this.lblRules.Size = new System.Drawing.Size(1264, 510);
             this.lblRules.TabIndex = 21;
             this.lblRules.Text = resources.GetString("lblRules.Text");
             // 
