@@ -10,7 +10,7 @@ namespace NUO
     /// <summary>
     /// DBConnection is a class for the interaction between the database and the programm
     /// </summary>
-    class DBConnection
+    public class DBConnection
     {
         //Declaration of the SQLiteConnection for further use in the code
         SQLiteConnection sqliteConn;
