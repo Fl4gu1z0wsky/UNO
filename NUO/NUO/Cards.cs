@@ -40,8 +40,17 @@ namespace NUO
             Value = valueCard;
         }
         //Get set to manage the cards informations
+        /// <summary>
+        /// Id of the cards
+        /// </summary>
         public int Id { get; set; }
+        /// <summary>
+        /// Color of the card
+        /// </summary>
         public int Color { get; set; }
+        /// <summary>
+        /// Value of the card
+        /// </summary>
         public int Value { get; set; }
 
     }

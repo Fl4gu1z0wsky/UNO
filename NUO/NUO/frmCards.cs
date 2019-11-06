@@ -19,6 +19,9 @@ using System.Windows.Forms;
 
 namespace NUO
 {
+    /// <summary>
+    /// Form that explains the various cards of the game
+    /// </summary>
     public partial class frmCards : Form
     {
         /// <summary>

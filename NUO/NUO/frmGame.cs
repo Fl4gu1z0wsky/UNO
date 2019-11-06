@@ -24,6 +24,9 @@ namespace NUO
     /// </summary>
     public partial class frmGame : Form
     {
+        /// <summary>
+        /// THe number of IA in the game selected by the player
+        /// </summary>
         public int numberIA;
         /// <summary>
         /// Constructor

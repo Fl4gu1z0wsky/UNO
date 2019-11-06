@@ -46,9 +46,21 @@ namespace NUO
             this.Cartes = new List<int>();
         }
 
+        /// <summary>
+        /// Pseudo of the player
+        /// </summary>
         public string Pseudo { get; set; }
+        /// <summary>
+        /// Score of the player
+        /// </summary>
         public int Score { get; set; }
+        /// <summary>
+        /// List of cards
+        /// </summary>
         public List<int> Cartes { get; set; }
+        /// <summary>
+        /// TIming of the player for playing
+        /// </summary>
         public decimal Timing { get; set; }
     }
 }

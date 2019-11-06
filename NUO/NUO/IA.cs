@@ -34,9 +34,21 @@ namespace NUO
         {
 
         }
+        /// <summary>
+        /// List of cards
+        /// </summary>
         public List<int> Cartes { get; set; }
+        /// <summary>
+        /// Pseudo of a player (here IA)
+        /// </summary>
         public string Pseudo { get; set; }
+        /// <summary>
+        /// Score of the IA
+        /// </summary>
         public int Score { get; set; }
+        /// <summary>
+        /// Timing for the IA for playing
+        /// </summary>
         public decimal Timing { get; set; }
     }
 }

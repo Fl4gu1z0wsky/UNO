@@ -54,7 +54,7 @@ namespace NUO
         /// Add cards on the tablelayoutpanel horizontaly for an ai
         /// </summary>
         /// <param name="table">This is a TableLayoutPanel</param>
-        /// <param name="player">This is an ai</param>
+        /// <param name="ai">This is an ai</param>
         public void setTablesLayoutHorizontal(TableLayoutPanel table, IA ai)
         {
             CardsOnBoards buttonsCard = new CardsOnBoards();
@@ -65,7 +65,7 @@ namespace NUO
         /// Add cards on the tablelayoutpanel verticaly for an ai
         /// </summary>
         /// <param name="table">This is a TableLayoutPanel</param>
-        /// <param name="player">This is an ai</param>
+        /// <param name="ai">This is an ai</param>
         public void setTablesLayoutVertical(TableLayoutPanel table, IA ai)
         {
             CardsOnBoards buttonsCard = new CardsOnBoards();
