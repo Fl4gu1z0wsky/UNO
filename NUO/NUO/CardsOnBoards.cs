@@ -1,4 +1,14 @@
-﻿using System;
+﻿/**
+ * \file      CardsOnBoards.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Class to put the cards on the board game.
+ *
+ * \details   This class create an object CardsonBoards and put the differents cards of the player
+ * and the AI on the board. 
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

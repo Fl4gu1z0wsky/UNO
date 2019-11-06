@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * \file      frmLaunch.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Welcome form.
+ *
+ * \details   This form welcomes the player and let him enter a name. 
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

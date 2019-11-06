@@ -1,4 +1,14 @@
-﻿using System;
+﻿/**
+ * \file      TablesLayout.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Class for the tableLayout.
+ *
+ * \details   This class create an object TableLayout se the cards are well brought
+ * on the board game for the player and the AI's. 
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

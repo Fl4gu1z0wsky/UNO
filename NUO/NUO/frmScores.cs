@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * \file      frmScores.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Form with the scores.
+ *
+ * \details   This form shows the 10 best scores. 
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

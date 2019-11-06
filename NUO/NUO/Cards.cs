@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * \file      Cards.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Class for Cards.
+ *
+ * \details   This class create an object Cards and put the informations of the db in it. 
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

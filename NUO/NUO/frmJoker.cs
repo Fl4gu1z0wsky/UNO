@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * \file      frmJoker.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Form with the Jokers.
+ *
+ * \details   This form explain what the differents jokers do. 
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * \file      frmIA.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Form with AI.
+ *
+ * \details   This form let the player chose how many AI he can play against. 
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

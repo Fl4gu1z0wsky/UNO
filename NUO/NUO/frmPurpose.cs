@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * \file      frmPurpose.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Form with the purpose.
+ *
+ * \details   This form explains the purpose of the game. 
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * \file      frmGame.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Form of the Game.
+ *
+ * \details   This is the form of the board game where the player can interact with the IA. 
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

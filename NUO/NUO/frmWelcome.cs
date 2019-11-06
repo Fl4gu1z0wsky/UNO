@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * \file      frmWelcome.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Form with choices.
+ *
+ * \details   This form let the player choose between 3 options : play the game/see the scores/see the rules. 
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

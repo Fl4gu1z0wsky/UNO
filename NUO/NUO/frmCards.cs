@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * \file      frmCards.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Form with different Cards.
+ *
+ * \details   This form shows the differents cards from the UNO game. 
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

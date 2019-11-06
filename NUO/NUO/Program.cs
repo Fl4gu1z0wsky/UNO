@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * \file      Program.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Main class of the program.
+ *
+ * \details   This class launch the game. 
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;

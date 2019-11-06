@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * \file      frmRules.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Form with the differents rules.
+ *
+ * \details   This form let the player chose a rule for the game to explain it. 
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

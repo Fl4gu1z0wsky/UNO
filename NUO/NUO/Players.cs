@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * \file      Players.cs
+ * \authors   F. Sovilla & M. Costa-Cabral
+ * \version   1.0
+ * \date      November 06. 2019
+ * \brief     Class for the player.
+ *
+ * \details   This class create an object Player and give him a stack of cards. 
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
