@@ -18,17 +18,17 @@ namespace NUO
     /// <summary>
     /// It's the card that contains the element from the database
     /// </summary>
-    class Cards
+    public class Cards
     {
         /// <summary>
-        /// Create a card
+        /// Constructor of cards
         /// </summary>
         public Cards()
         {
 
         }
         /// <summary>
-        /// Create a card
+        /// Constructor of cards with parameters
         /// </summary>
         /// <param name="idCard">id of the card in int</param>
         /// <param name="colorCard">color from Colors</param>

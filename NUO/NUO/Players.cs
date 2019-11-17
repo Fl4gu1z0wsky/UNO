@@ -59,7 +59,7 @@ namespace NUO
         /// </summary>
         public List<int> Cartes { get; set; }
         /// <summary>
-        /// TIming of the player for playing
+        /// Timing of the player for playing
         /// </summary>
         public decimal Timing { get; set; }
     }

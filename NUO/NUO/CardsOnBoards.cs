@@ -44,7 +44,7 @@ namespace NUO
         /// </summary>
         /// <param name="table">This is a TableLayoutPanel</param>
         /// <param name="player">This is the MainPlayer</param>
-        public void AddBUttons(TableLayoutPanel table, Players player)
+        public void AddBUttons(TableLayoutPanel table, Players player, Button activate)
         {
             table.ColumnCount = 9;
             table.RowCount = 2;
@@ -54,7 +54,23 @@ namespace NUO
                 imagelist1.ImageSize = new Size(81, 124);
                 string from = "Images/" + player.Cartes[i] + ".png";
                 imagelist1.Images.Add(Image.FromFile(from));
+                //We create the button with the image of the card inside
+                //And we add the event click that send the id of the card
                 Button cmdImage = new Button();
+                cmdImage.Click += (s, e) => {
+                    Verifications verif = new Verifications();
+                    MessageBox.Show(player.Cartes[0].ToString(), "Index", MessageBoxButtons.OK, MessageBoxIcon.Information);// --> Return un nb between 0 and 17
+                    verif.verificationCard(player.Cartes[0]);                  
+                    //If the player has 18 cards, he can't take anymore cards
+                    if (player.Cartes.Count < 18)
+                    {
+                        activate.Enabled = true;
+                    }
+                    else
+                    {
+                        activate.Enabled = false;
+                    }
+                };
                 cmdImage.BackgroundImage = imagelist1.Images[0];
                 cmdImage.Text = "";
                 cmdImage.Size = new Size(81, 124);

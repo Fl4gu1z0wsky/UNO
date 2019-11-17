@@ -73,6 +73,25 @@ namespace NUO
             sqliteConn.Close();
         }
         /// <summary>
+        /// Return the infos of the card
+        /// </summary>
+        /// <param name="idCard">Id of the card</param>
+        /// <returns></returns>
+        public Cards GetInfoCards(int idCard)
+        {
+            Cards card = new Cards();
+            SQLiteCommand cmd = sqliteConn.CreateCommand();
+            cmd.CommandText = "SELECT color, value FROM cards WHERE id = " + idCard + ";";
+            SQLiteDataReader dataReader = cmd.ExecuteReader();
+            while (dataReader.Read())
+            {
+                //Add the informations of a card
+                card.Color = Int32.Parse(dataReader["color"].ToString());
+                card.Value = Int32.Parse(dataReader["value"].ToString());
+            }
+            return card;
+        }
+        /// <summary>
         /// Get the id of the card
         /// </summary>
         /// <returns>A list<int> of the id cards</returns>

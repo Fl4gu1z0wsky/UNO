@@ -5,7 +5,7 @@
  * \date      November 06. 2019
  * \brief     Class for the tableLayout.
  *
- * \details   This class create an object TableLayout se the cards are well brought
+ * \details   This class create an object TableLayout so the cards are well brought
  * on the board game for the player and the AI's. 
  */
 using System;
@@ -44,10 +44,10 @@ namespace NUO
         /// </summary>
         /// <param name="table">This is a TableLayoutPanel</param>
         /// <param name="player">This is the MainPlayer</param>
-        public void setTablesLayout(TableLayoutPanel table, Players player)
+        public void setTablesLayout(TableLayoutPanel table, Players player, Button activate)
         {           
             CardsOnBoards buttonsCard = new CardsOnBoards();
-            buttonsCard.AddBUttons(table, player);
+            buttonsCard.AddBUttons(table, player, activate);
             this.ArrangeTableLayout(table);
         }
         /// <summary>

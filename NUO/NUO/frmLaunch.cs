@@ -23,7 +23,7 @@ namespace NUO
     /// Form for the player to enter his name
     /// </summary>
     public partial class frmLaunch : Form
-    {    
+    {
         /// <summary>
         /// Constructor
         /// </summary>

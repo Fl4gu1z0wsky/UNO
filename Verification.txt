@@ -1,0 +1,25 @@
+**********************************
+*          VERIFICATION          *
+**********************************
+
+Petit format texte pour la verification des cartes lors de clique du joueur :
+
+1) Créer un DBconnection pour fournir les infos de la carte que le choisir choisi
+2) Pareil mais avec la carte sur le haut de la pile
+3) On compare les deux selon les règles du UNO
+4.1) Si elles sont incorrectes, on ne fait rien
+4.2) Si elles sont correctes, on ajoute la carte choisie sur le tas
+4.2.1) On supprime la carte séléctionnée préalablement par le joueur
+
+Colors :
+Red(0), Green(1), Yellow(2), Blue(3), Black(4)
+
+Values :
+Zero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine,
+PlusTwo(10), PlusFour(11), Inverse(12), Pass(13), Joker(14)
+
+3) Règles =>
+
+1) Si la couleur est bonne, on peut poser la carte
+2) Si la valeur est la même on peut poser la carte
+3) Joker et PlusFour peuvent être posées à tout moment
